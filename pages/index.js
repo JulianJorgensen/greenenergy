@@ -2,7 +2,7 @@ import React from 'react'
 import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-  html {
+  body {
     margin: 0;
   }
 `;
@@ -15,5 +15,8 @@ const Placeholder = styled.div`
 `
 
 export default () => (
-  <Placeholder src="http://cdn.thankyoustudio.com.s3.amazonaws.com/images/placeholder.jpg" />
+  <div>
+    <Placeholder src="http://cdn.thankyoustudio.com.s3.amazonaws.com/images/placeholder.jpg" />
+    <GlobalStyle />
+  </div>
 )
