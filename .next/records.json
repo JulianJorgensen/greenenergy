@@ -492,16 +492,19 @@
       "static/IFbegeNMjS_JMrTz3TvyH/pages/_error.js": 8,
       "static/CupEyFguyfyjpTLit8UcP/pages/index.js": 3,
       "static/CupEyFguyfyjpTLit8UcP/pages/_app.js": 4,
-      "static/CupEyFguyfyjpTLit8UcP/pages/_error.js": 5
+      "static/CupEyFguyfyjpTLit8UcP/pages/_error.js": 5,
+      "static/AfbM02AVCg2nVT4QB4BpM/pages/index.js": 6,
+      "static/AfbM02AVCg2nVT4QB4BpM/pages/_app.js": 7,
+      "static/AfbM02AVCg2nVT4QB4BpM/pages/_error.js": 8
     },
     "bySource": {},
     "usedIds": [
       0,
       1,
       2,
-      3,
-      4,
-      5
+      6,
+      7,
+      8
     ]
   }
 }
