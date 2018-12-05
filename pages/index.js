@@ -4,6 +4,8 @@ import styled from 'styled-components'
 const Placeholder = styled.div`
   width: 100vw;
   height: 100vh;
+  background: url(${props => props.src}) center center no-repeat;
+  background-size: cover;
 `
 
 export default () => (
