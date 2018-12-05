@@ -6,4 +6,6 @@ const Placeholder = styled.div`
   height: 100vh;
 `
 
-export default () => <Placeholder src="http://cdn.thankyoustudio.com.s3.amazonaws.com/images/placeholder.jpg">
+export default () => (
+  <Placeholder src="http://cdn.thankyoustudio.com.s3.amazonaws.com/images/placeholder.jpg" />
+)
