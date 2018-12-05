@@ -1,5 +1,11 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+  html {
+    margin: 0;
+  }
+`;
 
 const Placeholder = styled.div`
   width: 100vw;
